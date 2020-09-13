@@ -53,7 +53,7 @@ export default ({onColorPicked, image, r = 3}: Props) => {
                 onMouseMove={e => setPicked(getColorAt(e))}
                 onClick={handleClick}
             />
-            {this.picked !== null &&
+            {picked !== null &&
             <ColorPickerCursor
                 {...picked}
             />
