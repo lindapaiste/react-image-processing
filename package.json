@@ -2,19 +2,18 @@
   "name": "@lindapaiste/image-processing",
   "version": "1.0.0",
   "peerDependencies": {
-    "react": "^16.n13.1",
+    "react": "^16.13.1",
     "react-native": "^0.63.2"
   },
   "devDependencies": {
     "@types/react": "^16.9.46",
-    "@types/react-native": "^0.63.6"
+    "@types/react-native": "^0.63.6",
+    "react-scripts": "3.4.3"
   },
   "repository": {
     "url": ""
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "16.13.1",
-    "react-scripts": "3.4.3"
+    "react-dom": "16.13.1"
   }
 }
